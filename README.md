@@ -5,8 +5,11 @@ In this notebook, we implement and explore FouRA, a plug-and-play adapter that e
 
 ## Why FouRA?
 ✅ Efficient fine-tuning of ViTs
+
 ✅ Works in the frequency domain (DFT/DCT)
+
 ✅ Modular and easy to inject into pretrained models
+
 ✅ Achieves great performance with minimal additional parameters
 
 We'll apply FouRA to a pretrained ViT-B/16 model and fine-tune it on the CIFAR-100 dataset.
